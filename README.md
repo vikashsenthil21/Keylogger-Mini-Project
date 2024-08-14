@@ -1,15 +1,15 @@
-### Keylogger Project
+# Keylogger Project
 
 ## Overview
 
 This project is a simple keylogger designed for educational purposes. It captures keystrokes from the user’s keyboard and logs them into a file for later analysis. The keylogger can be used to understand how keystroke logging works and to demonstrate potential security risks associated with keyloggers.
 Features
 
-    Logs all keystrokes made by the user
-    Saves the logs to a local file
-    Runs in the background with minimal system impact
-    Works on [Operating Systems: Windows/Linux/MacOS (specify based on your project)]
-    [Additional features like email reporting, screenshot capture, etc.]
+*  Logs all keystrokes made by the user
+*  Saves the logs to a local file
+*  Runs in the background with minimal system impact
+*  Works on [Operating Systems: Windows/Linux/MacOS (specify based on your project)]
+*  [Additional features like email reporting, screenshot capture, etc.]
 
 ## Installation
 
@@ -36,9 +36,9 @@ Run the Keylogger
 
 ## Usage
 
-    Once the keylogger is running, it will start capturing keystrokes and save them to a file (log.txt by default).
-    You can stop the keylogger by [specify how to stop it, e.g., closing the terminal, pressing a specific key combination, etc.].
-    Review the log.txt file to see the captured keystrokes.
+Once the keylogger is running, it will start capturing keystrokes and save them to a file (log.txt by default).
+You can stop the keylogger by [specify how to stop it, e.g., closing the terminal, pressing a specific key combination, etc.].
+Review the log.txt file to see the captured keystrokes.
 
 ## Legal Disclaimer
 
