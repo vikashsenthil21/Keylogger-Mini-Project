@@ -2,10 +2,11 @@
 
 ## Overview
 
-This project is a simple keylogger designed for educational purposes. It captures keystrokes from the user’s keyboard and logs them into a file for later analysis. The keylogger can be used to understand how keystroke logging works and to demonstrate potential security risks associated with keyloggers.
+This project is a simple keylogger designed for educational purposes. It captures keystrokes from the user’s keyboard and send the keystrokes via email and logs them into a file for later analysis. The keylogger can be used to understand how keystroke logging works and to demonstrate potential security risks associated with keyloggers.
 Features
 
 *  Logs all keystrokes made by the user
+*  Its capture input key and send to email
 *  Saves the logs to a local file
 *  Runs in the background with minimal system impact
 *  Works on [Operating Systems: Windows/Linux/MacOS (specify based on your project)]
@@ -23,11 +24,14 @@ Navigate to the Project Directory
 cd keylogger-Project
 ```
 Install Dependencies
-    Python 3.x is required.
-    Install the necessary libraries:
+
+  Python 3.x is required.
+  Install the necessary libraries:
   ```
+    pip install smtplib
+    pip install pynput
     pip install keyboards
-    pip install 
+    pip install time
   ```
 Run the Keylogger
 ```
