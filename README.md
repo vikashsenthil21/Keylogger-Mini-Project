@@ -16,11 +16,11 @@ Features
   Clone the Repository
 
 ```
-git clone https://github.com/yourusername/keylogger.git
+[git clone https://github.com/yourusername/keylogger.git](https://github.com/PERARASU10/Keylogger-Project.git)
 ```
 Navigate to the Project Directory
 ```
-cd keylogger
+cd keylogger-Project
 ```
 Install Dependencies
     Python 3.x is required.
