@@ -38,6 +38,12 @@ Run the Keylogger
     python keylogger.py
 ```
 
+## Screenshots
+
+![Screenshot from 2024-09-03 23-19-50](https://github.com/user-attachments/assets/16704083-66c4-44ab-b009-15f8112a72fc)
+
+![Screenshot from 2024-09-03 23-20-23](https://github.com/user-attachments/assets/173d8bb6-49d7-419e-a070-2048888e5a0d)
+
 ## Usage
 
 Once the keylogger is running, it will start capturing keystrokes and save them to a file (log.txt by default).
