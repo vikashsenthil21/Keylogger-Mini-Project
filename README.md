@@ -52,6 +52,4 @@ This keylogger is intended for educational purposes only. Unauthorized use of th
 
 If you would like to contribute to this project, feel free to fork the repository and submit a pull request. Contributions that enhance the functionality or security of the keylogger are welcome.
 
-## License
 
-This project is licensed under the MIT License.
