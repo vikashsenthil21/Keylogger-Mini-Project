@@ -6,7 +6,7 @@ This project is a simple keylogger designed for educational purposes. It capture
 Features
 
 *  Logs all keystrokes made by the user
-*  Its capture input key and send to email
+*  Its capture input key and send to email.
 *  Saves the logs to a local file
 *  Runs in the background with minimal system impact
 *  Works on [Operating Systems: Windows/Linux (specify based on your project)]
