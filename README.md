@@ -9,7 +9,7 @@ Features
 *  Its capture input key and send to email
 *  Saves the logs to a local file
 *  Runs in the background with minimal system impact
-*  Works on [Operating Systems: Windows/Linux/MacOS (specify based on your project)]
+*  Works on [Operating Systems: Windows/Linux (specify based on your project)]
 *  [Additional features like email reporting, screenshot capture, etc.]
 
 ## Installation
