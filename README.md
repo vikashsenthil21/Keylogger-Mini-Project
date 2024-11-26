@@ -17,7 +17,7 @@ Features
   Clone the Repository
 
 ```
-[git clone https://github.com/yourusername/keylogger.git](https://github.com/PERARASU10/Keylogger-Project.git)
+[git clone https://github.com/yourusername/keylogger.git](https://github.com/vikashsenthil21/Keylogger-Mini-Project.git)
 ```
 Navigate to the Project Directory
 ```
@@ -40,9 +40,10 @@ Run the Keylogger
 
 ## Screenshots
 
-![Screenshot from 2024-09-03 23-19-50](https://github.com/user-attachments/assets/16704083-66c4-44ab-b009-15f8112a72fc)
+![image](https://github.com/user-attachments/assets/6ead40b7-f07a-4802-9f7c-68e4ef7bc9c7)
 
-![Screenshot from 2024-09-03 23-20-23](https://github.com/user-attachments/assets/173d8bb6-49d7-419e-a070-2048888e5a0d)
+![image](https://github.com/user-attachments/assets/f63fad28-1359-4d75-92c2-ce06ca560a65)
+
 
 ## Usage
 
