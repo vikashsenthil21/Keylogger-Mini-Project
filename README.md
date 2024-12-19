@@ -103,6 +103,10 @@ If you would like to contribute to this project, feel free to fork the repositor
        VirusTotal API key for reputation checks.
 ## System Architecture :
 ![DALL·E 2024-12-09 12 30 31 - A simple system architecture diagram for a keylogger detection system  The diagram includes_ (1) 'Data Collection Layer' at the bottom, with component](https://github.com/user-attachments/assets/30af32bd-7862-4f8d-8ecc-a2e36669bf85)
+## Output :
+
+![photo-collage png (1)](https://github.com/user-attachments/assets/3246d1f7-cbd1-4779-b3f1-3543d301ec45)
+![photo-collage png](https://github.com/user-attachments/assets/a7ab862a-291f-4e17-9a08-fcef455f0933)
 
 ## Results and Impact :
      1.Enhanced Security:
